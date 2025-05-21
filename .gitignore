@@ -1,0 +1,128 @@
+# ----------------------------------------
+# 📦 Python, ML, AI, Data Science Projects
+# ----------------------------------------
+
+# Віртуальні середовища
+venv/
+.env/
+ENV/
+env/
+*.egg-info/
+
+# Кеші Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Логи
+*.log
+*.out
+*.err
+
+# OS-системні файли
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# IDE файли
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 📊 Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.ipynb~
+
+# 🧠 Великі ML файли та моделі
+*.bin
+*.ckpt
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.tflite
+*.onnx
+*.pb
+*.sav
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.weights
+
+# 💾 Дані, кеші, архіви
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.jsonl
+*.gz
+
+# 🔄 Логи та логи від фреймворків
+logs/
+runs/
+lightning_logs/
+wandb/
+checkpoints/
+tensorboard/
+mlruns/
+
+# 🤖 HuggingFace cache
+~/.cache/huggingface
+.cache/
+datasets/
+
+# 🧪 Тестування
+coverage/
+*.cover
+*.py,cover
+*.coveragerc
+*.tox
+.nox/
+
+# 🗃️ Проєктні каталоги
+models/
+outputs/
+weights/
+artifacts/
+experiments/
+exported/
+
+# 📜 Моделі для автоматичної генерації
+*.txt.generated
+*.json.generated
+
+# 🧪 Конфігураційні файли
+*.ini
+*.cfg
+*.toml
+
+# 📦 Conda
+*.conda
+*.yml
+
+# 🔒 Секрети (тільки якщо їх випадково додаєш)
+*.key
+*.pem
+*.crt
+*.env
+secrets.*
+
+# 🛠️ VSCode History
+.history/
+
+# 🧪 Папки з уроками (залишаються, якщо потрібен лише код)
+*/__pycache__/
+*/models/
+*/checkpoints/
+*/runs/
+*/outputs/
